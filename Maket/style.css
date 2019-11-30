@@ -1,0 +1,178 @@
+html, body {
+    height:100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.header {
+    background: gainsboro;
+    position: relative;
+    padding: 15px;
+
+}
+.header .title {
+    text-align: center;
+}
+.phone {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.head {
+    background: coral;
+    padding: 15px;
+}
+.col_left  {
+    float: left;
+}
+.nav {
+    float: right;
+}
+.nav li {
+    float: left;
+    margin: 5px;
+}
+.nav li a {
+    margin-right: 10px;
+}
+.container {
+    padding: 0 15px;
+}
+.maindiv {
+    background: lightgray;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.main {
+    background: darkgray;
+    float: left;
+    width: 70%;
+    margin: 0px;
+    padding: 0;
+}
+
+.maintitle {
+    margin: 5px;
+    background: gray;
+}
+.maintitle .title_post {
+    float: left;
+    padding: 20px 10px;
+}
+.maintitle .pmaintitle {
+    float: right;
+    padding: 20px 10px;
+}
+.mainimg {
+    padding: 10px;
+    float: left;
+    /*background: pink; */
+    width: calc(30% - 20px);
+}
+.mainimg img {
+    width: 100%;
+}
+.maintext {
+    float: right;
+    width: 70%;
+}
+.aside {
+    background: blueviolet;
+    padding: 10px;
+    width: calc(30% - 20px);
+    float: right;
+}
+.aside .title_nav {
+    text-align: center;
+    width: 100%;
+}
+.nav_ul {
+    padding: 20px;
+}
+.pnav {
+    padding: 10px;
+}
+.aftermain {
+    background: darkslategray;
+    display: flex;
+    justify-content: space-around;
+}
+.secdiv1, .secdiv2, .secdiv3 {
+    background: palevioletred;
+    flex: 1;
+}
+.secdiv1 {
+    margin: 10px;
+}
+.secdiv2 {
+    margin: 10px 0;
+}
+.secdiv3 {
+    margin: 10px;
+}
+.aftermain h3 {
+    text-align: center;
+}
+.aftermain p {
+    display: inline-block;
+}
+.footer {
+    width: 100%;
+    background: greenyellow;
+}
+.footer_img {
+    float: left;
+    width: calc(30% - 30px);
+    padding: 15px;
+}
+.footer_title  {
+    text-align: center;
+    width: calc(40% - 30px);
+    float: left;
+    padding: 15px;
+}
+.footer .form_search {
+    float: right;
+    width: calc(30% - 30px);
+    margin: 15px;
+}
+.footer .search {
+    width: 100%;
+}
+.subfooter {
+    width: 100%;
+    background: blue;
+}
+.subfooter p {
+    padding: 5px 15px;
+}
+.left_footer_text {
+    float: left;
+    width: calc(20% - 30px);
+}
+.center_footer_text {
+    text-align: center;
+    width: calc(60% - 30px);
+    display: inline-block;
+}
+.right_footer_text {
+    float: right;
+    width: calc(20% - 30px);
+}
+
+
+

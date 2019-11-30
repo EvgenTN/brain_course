@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgenTN/gulp_try.git"
+  },
+  "author": "evgentn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgenTN/gulp_try/issues"
+  },
+  "homepage": "https://github.com/EvgenTN/gulp_try#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  }
+}

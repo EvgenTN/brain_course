@@ -1,0 +1,26 @@
+.modals {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: rgba(61, 63, 65, 0.342);
+    padding: 20px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modals form {
+    background: lightcoral;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px 100px;
+}
+.btn {
+    padding: 5px 15px;
+}
+.btn:last-child {
+    margin-left: 15px;
+}
+.modals p {
+    font-weight: bold;
+}

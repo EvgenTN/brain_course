@@ -1,0 +1,51 @@
+.skills {
+  font-family: 'Raleway';
+  background: #1d1d24;
+  padding: 50px 15px;
+  &__header {
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  &__red-line {
+    width: 80px;
+    border-bottom: 3px solid $sliderRed;
+    margin-bottom: 50px;
+  }
+  &__boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @include media(768px) {
+      flex-direction: column;
+}
+  }
+  &__box {
+    width: 325px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+  }
+  &__name {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  &__box-part {
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+  }
+  &__progress {
+    display: block;
+  }
+  &__percent {
+    color: #ffffff;
+    margin-left: 20px;
+  }
+}
+//box-shadow: -13px 0 $sliderRed, -26px 0 $sliderRed, -39px 0 $sliderRed, -52px 0 $sliderRed, -65px 0 $sliderRed, -78px 0 $sliderRed, -91px 0 $sliderRed, -104px 0 $sliderRed, -117px 0 $sliderRed, -130px 0 $sliderRed, -143px 0 $sliderRed, -156px 0 $sliderRed, -169px 0 $sliderRed, -182px 0 $sliderRed, -195px 0 $sliderRed, -208px 0 $sliderRed, -221px 0 $sliderRed, -234px 0 $sliderRed, -247px 0 $sliderRed, -260px 0 $sliderRed, -273px 0 $sliderRed, -286px 0 $sliderRed, -299px 0 $sliderRed;

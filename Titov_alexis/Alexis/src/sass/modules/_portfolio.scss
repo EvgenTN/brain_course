@@ -1,0 +1,74 @@
+.portfolio {
+  max-width: 1920px;
+  min-height: 800px;
+  margin: 0 auto;
+  &__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 150px 0;
+  }
+  &__head {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  &__text {
+    font-size: 18px;
+    text-align: center;
+    color: $textColor;
+    margin-bottom: 70px;
+  }
+  &__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+  }
+  &__box {
+    position: relative;
+    margin-bottom: 20px;
+    &__img {
+      height: 290px;
+      width: 360px;
+    }
+    &__hidden {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: none;
+      flex-direction: column;
+    }
+    &:hover {
+      .hidden {
+        display: flex;
+        cursor: pointer;  
+      }
+    }
+    &__onfocus {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.1);
+      flex: 1;
+    }
+    &__info {
+      background: #ffffff;
+      border-width: 5px 0 0 0;
+      border-style: solid;
+      border-image: linear-gradient(to right, #fc5f45 25%, #38c695 25%, #38c695 50%, #b27cf5 50%, #b27cf5 75%, #feb960 75%);
+      border-image-slice: 1;  
+    }
+    &__text {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      margin: 20px;
+    }  
+  }
+}    

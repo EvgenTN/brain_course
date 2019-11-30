@@ -1,0 +1,8 @@
+.idea
+.idea/
+node_modules
+node_modules/
+package-lock.json
+images/alexis-homepage.psd
+npm-debug.log
+yarn-error.log

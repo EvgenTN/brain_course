@@ -1,0 +1,82 @@
+.team {
+  padding: 70px 15px;
+  border-bottom: 1px solid #dde1ed;
+}
+
+.team .wrapper {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.team .wrapper .head {
+  margin-bottom: 60px;
+}
+
+.team .wrapper .boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.team .wrapper .boxes .itembox {
+  margin-bottom: 30px;
+}
+
+.team .wrapper .boxes .itembox .image {
+  position: relative;
+}
+
+.team .wrapper .boxes .itembox .image img {
+  width: 260px;
+  height: 300px;
+  display: block;
+}
+
+.team .wrapper .boxes .itembox .image .hideblock {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .wrapper .boxes .itembox .image .hideblock img {
+  height: 50px;
+  width: 50px;
+  margin-right: 2px;
+}
+
+.team .wrapper .boxes .itembox:hover .hideblock {
+  display: flex;
+}
+
+.team .wrapper .boxes .itembox:hover .footer {
+  background: darkslategray;
+}
+
+.team .wrapper .boxes .itembox:hover .footer p {
+  color: white;
+}
+
+.team .wrapper .boxes .itembox .footer {
+  background-color: #e1e6ea;
+  padding: 20px;
+}
+
+.team .wrapper .boxes .itembox .footer .name {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #292f36;
+  margin-bottom: 5px;
+}
+
+.team .wrapper .boxes .itembox .footer .position {
+  font-size: 14px;
+  color: #8d8f92;
+}
+/*# sourceMappingURL=main.css.map */

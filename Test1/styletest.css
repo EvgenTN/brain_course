@@ -1,0 +1,46 @@
+/* test comments  */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  /* background-image: url("images/bluesea.jpeg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center; */
+    background: red url("images/bluesea.jpeg") fixed no-repeat;
+    background-size: cover;
+
+}
+
+
+}
+.test p:nth-child(1) {
+    background: greenyellow;
+}
+
+
+
+.link {
+  padding:20px 30px;
+  background: green;
+  color: white;
+  margin: 50px;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 200px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  border: 2px solid red;
+  border-radius: 0 0 0 10px;
+ /* display: none;
+   opacity: 0;*/
+
+}
+.link:hover {
+  border-radius: 20px;
+  border-color: yellow;
+/*  outline: 4px solid blue;*/
+}

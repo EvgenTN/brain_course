@@ -1,0 +1,51 @@
+/*div {
+    background: yellow url('');
+    background-color: yellow;
+    background-image: url('');
+    height: 200px;
+}*/
+.firstdiv {
+    background: red;
+}
+.seconddiv {
+    background: green !important;
+}
+.activeViolet {
+    background: violet;
+}
+/*#div3 {
+    background: blue;
+}*/
+.div3 {
+    background: orange;
+}
+.div3#testid {
+    background: violet;
+}
+.seconddiv.activeViolet {
+    background: lightblue;
+}
+.backdiv {
+    background: lightcoral;
+}
+.backdiv .text {
+    color: white;
+}
+.text.colorblue {
+    color: blue;
+}
+/*.forred1 .forred2 .forred3 .redspan {
+    color: red;
+}*/
+.forred1 .forred2 .forred3 .redspan.secondspan {
+    color: red;
+}
+.forred1 .forred2 .forred3.active .redspan.secondspan {
+    color: lightcoral;
+}
+.test1 > div > div {
+    background: lightgreen;
+}
+.test2 p:last-child {
+    background: lightsalmon;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Gulp_class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EvgenTN/Gulp_class.git",
+  "author": "evgentn",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1"
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  margin: 0 auto;
+  padding: 20px;
+  &__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }    
+  &__logo {
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    a {
+      font-size: 14px;
+      margin-left: 22px;
+      color: #272727;
+      text-transform: capitalize;
+    }
+  }
+}

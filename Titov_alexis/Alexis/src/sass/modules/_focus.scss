@@ -1,0 +1,75 @@
+.focus {
+  max-width: 1920px;
+  min-height: 800px;
+  margin: 0 auto;
+  background: $bgColorGray;
+  &__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 150px 0;
+  }
+  &__head {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    &__number {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      color: #f0f0f0;
+      display: none;
+    }
+  }
+  &__text {
+    font-size: 18px;
+    text-align: center;
+    color: $textColor;
+    margin-bottom: 70px;
+  }
+  &__boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__itembox {
+    background: #ffffff;
+    max-width: 23%;
+    min-height: 350px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 5px solid;
+    &__icon {
+      max-width: 55px;
+      max-height: 45px;
+    }
+    &__head {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 50px;
+    }  
+    &_orange {
+      border-bottom-color: $orange;
+    }
+    &_green {
+      border-bottom-color: $green;
+    }
+    &_purple {
+      border-bottom-color: $purple;
+    }
+    &_yellow {
+      border-bottom-color: $yellow;
+    }
+  }  
+}

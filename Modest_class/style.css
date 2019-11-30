@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, p, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
+    font-family: 'Quattrocento Sans', sans-serif;
+    src: url('fonts/Quattrocento_Sans');
+}
+body {
+    line-height: 1;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+/*img {
+    max-width: 100%;
+} */
+.header {
+    background: #1d2126;
+    padding: 32px 15px;
+}
+.header .wrapper {
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .wrapper .logo {
+    width: 100px;
+    height: 16px;
+}
+.header .nav {
+    display: flex;
+}
+.header .nav a {
+    margin-right: 25px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+}
+.header .nav a:last-child {
+    margin-right: 0;
+}
+.header .nav a:hover {
+    color: #33cc99;
+    border: 2px solid #33cc99;
+}
+.banner {
+    min-height: 600px;
+    padding: 30px 15px;
+    background: url("images/Backgroundpic.jpg") no-repeat 50% 50% ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner .wrapper {
+    max-width: 1130px;
+    margin: 0 auto;
+    flex: 1 0 0;
+}
+.banner .banner_title {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.banner .subtext {
+    font-size: 16px;
+    color: #9999cc;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.banner .buttons {
+    display: flex;
+    align-items: center;
+}
+.banner .buttons .btn {
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #ffffff;
+    outline: none;
+    font-size: 14px;
+    display: block;
+    border: 2px solid #ffffff;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.banner .buttons .btn:hover {
+    border-color: transparent;
+    background: #33cc99;
+}
+.about {
+    padding: 70px 15px;
+    border-bottom: 1px solid #dde1ed;
+}
+.about .wrapper {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.about .leftcol {
+    width: 60%;
+    padding-right: 15px;
+}
+.about .rightcol {
+    width: 40%;
+}
+.about .head {
+    margin-bottom: 60px;
+}
+.about .head .title {
+    padding-left: 20px;
+    position: relative;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #292f36;
+}
+.about .head .title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e1e6ea;
+    width: 10px;
+    height: 100%;
+}
+.about .row {
+    display: flex;
+}
+.about .text {
+    color: #292f36;
+    font-size: 10px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.about .row .box {
+    display: flex;
+}
+
+
+@media (max-width: 480px) {
+    .header .wrapper {
+        padding: 10px 15px;
+        flex-direction: column;
+    }
+    .header .nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header .nav a {
+        margin-right: 0;
+    }
+}

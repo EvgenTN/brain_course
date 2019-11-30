@@ -1,0 +1,11 @@
+.btn {
+  margin-bottom: 60px;
+  padding: 15px 45px;
+  border-radius: 40px;
+  font-size: 16px;
+  text-transform: uppercase;
+  &__orange {
+    background: #fc5f45;
+    color: #ffffff;      
+  }
+}
